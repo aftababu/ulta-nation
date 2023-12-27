@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import Cart from "./components/Cart/Cart";
 import Country from "./components/Country/Country";
 
-
 function App() {
   const [countries, setCountry] = useState([]);
   const [cart, setCart] = useState([]);
